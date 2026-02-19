@@ -1,0 +1,224 @@
+<!-- Sticky Glassmorphism Header -->
+<header class="fixed top-0 left-0 right-0 z-50 glass-header">
+  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div class="flex items-center gap-12">
+      <a href="#" class="flex items-center gap-2 group">
+        <mat-icon class="text-primary text-3xl group-hover:rotate-12 transition-transform">architecture</mat-icon>
+        <span class="text-xl font-bold tracking-tighter uppercase font-display">Industrial<span class="text-primary">Home</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium uppercase tracking-widest">
+        <a href="#" class="hover:text-primary transition-colors">Shop</a>
+        <a href="#" class="hover:text-primary transition-colors">Collections</a>
+        <a href="#" class="hover:text-primary transition-colors">Bespoke</a>
+        <a href="#" class="hover:text-primary transition-colors">Journal</a>
+      </nav>
+    </div>
+    <div class="flex items-center gap-6">
+      <button class="p-2 hover:bg-white/5 rounded-full transition-colors">
+        <mat-icon>search</mat-icon>
+      </button>
+      <button class="relative p-2 hover:bg-white/5 rounded-full transition-colors">
+        <mat-icon>shopping_cart</mat-icon>
+        <span class="absolute top-1 right-1 w-4 h-4 bg-primary text-[10px] font-bold flex items-center justify-center rounded-full text-black">3</span>
+      </button>
+      <button class="hidden md:block px-6 py-2 bg-primary text-black font-bold rounded hover:bg-primary/90 transition-all uppercase text-sm tracking-tighter">
+        Login
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="pt-20">
+  <!-- Bento-Box Hero Section -->
+  <section #animatedSection class="max-w-7xl mx-auto px-6 py-12 section-fade-in">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:grid-rows-2 gap-4 h-auto lg:h-[700px]">
+      <!-- Main Feature -->
+      <div class="sm:col-span-2 lg:row-span-2 relative overflow-hidden group rounded-lg bg-industrial-gray min-h-[400px] lg:min-h-0">
+        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAQudiV7cAa0-9lGFeDQNQcxkUmhksc9BSlP5XJ8cgs22MhnUlQhIh7psKX5WV64cMWMkq10oYteg_VPi_YSv1StFwGnJTda91v_GYACG_rGEa18KeiJ7BLA3frXdkf46P5-38Ud8g1ylKi3A8aTN4L82zvgbYwuQpN3WSZL_SnkOzdAcB-Y37Ya3N6vmHS2e10CsnTx5_MFrZ5kDH_tsSFuRgbPxJl5QWVarXuAPVMFB8YQsg4q0lzPrkHPz_lG638f4O9jBcFcbhP');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+        <div class="absolute bottom-8 left-8 right-8">
+          <h1 class="hero-title text-4xl sm:text-5xl lg:text-7xl font-bold uppercase leading-none tracking-tighter mb-4 font-display">Raw Metal.<br/><span class="text-primary">Refined Wood.</span></h1>
+          <p class="hero-stagger text-slate-300 max-w-md mb-6 font-light text-sm sm:text-base">Engineered for the modern loft. Bespoke industrial furniture crafted with sustainably sourced walnut and forged steel.</p>
+          <button class="hero-stagger px-6 sm:px-8 py-3 sm:py-4 bg-primary text-black font-black uppercase tracking-widest rounded hover:scale-105 transition-transform flex items-center gap-3 text-xs sm:text-sm">
+            Explore Collection <mat-icon>arrow_forward</mat-icon>
+          </button>
+        </div>
+      </div>
+
+      <!-- Top Right -->
+      <div class="sm:col-span-2 lg:col-span-2 relative overflow-hidden group rounded-lg bg-industrial-gray min-h-[250px] lg:min-h-0">
+        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAC0M0GXZCnS1uAzXEMsC7ZgcbE7sJgWsSaUMFokYMqgjGC3hV15MaHJrTEVVNgGkYFglGp-Ggfkh_ogEstMhX6dFUZI2xTIK4qyczEU3s1Xb9a1BNtiR37afAuj2Z9K3STQzLBNne3FVJyGzPLU0hznroE3F91u7cmkoDvgVoU8rLuvkhUDctYY-J6LapsIv7vtqHTJM-SSDhnVPlKB_-2bVX8vPLroffrv1cij6rER5VUdP8LctnnQNtCpefb8SK5XQFQKU5DyPJU');"></div>
+        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
+        <div class="absolute top-6 left-6">
+          <span class="bg-primary px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-black">New Era</span>
+          <h3 class="text-2xl font-bold mt-2 font-display">The Walnut Series</h3>
+        </div>
+      </div>
+
+      <!-- Bottom Middle -->
+      <div class="relative overflow-hidden group rounded-lg bg-industrial-gray min-h-[200px] lg:min-h-0">
+        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7VCfjZtNEjspFgzbJC8IptrcokNLgb9I4_ENLrFzW3tsFYXXMKvKuze6JrcarPdfgZF-yCXjFvgMeYGhx7_p0wD35fxkIQof7DrwoHBuX2838JpGmd7g-UqugQsE4EwjQcHW7ss9bQlvLUp306NB4aADYpHvBql-Xbmd7iKioCKIoYRNS6yp0K0swG-GIdtWhmcWrCmfE8gjxPqIen_UwurPMzPXvG6DgAuXhvSxWU4p6XsUU4PiRJN6B2VqVZ4sZQx7tm11wR133');"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="absolute bottom-4 left-4">
+          <p class="text-xs font-bold uppercase tracking-widest text-primary">Seating</p>
+          <h4 class="text-lg font-bold uppercase font-display">Forge Stools</h4>
+        </div>
+      </div>
+
+      <!-- Bottom Right -->
+      <div class="relative overflow-hidden group rounded-lg bg-industrial-gray min-h-[200px] lg:min-h-0">
+        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDg_fUEhTlTXiRJP7tOJDAmrwBw_HkYaV-OFztO4LIrjgKP-KYaGQp8n1zJnTNdUflbH6-cNiDzHo3A27kCOXOotVxRM5SMTBlfTMkKn4Zr9YV_2e24r5XhzqmzUW5BVR4JajCk0sqp3IBaDvxwAWayUkeDRcXMHuUNPYPZ9rgn2TMSVIHDYzoMlzeXqVAWn34_k0WQ3eM3TFPdPstzAOnMH-9hktM4TfDxHZf_jVdKjd1xRRoF6QnRacarT9JebRLjIDiO70fZ8S4-');"></div>
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="absolute bottom-4 left-4">
+          <p class="text-xs font-bold uppercase tracking-widest text-primary">Design</p>
+          <h4 class="text-lg font-bold uppercase font-display">The Process</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section #animatedSection class="max-w-7xl mx-auto px-6 py-20 section-fade-in">
+    <div class="flex justify-between items-end mb-12 border-b border-primary/20 pb-6">
+      <div>
+        <span class="text-primary uppercase tracking-[0.3em] text-xs font-bold">Curated Selection</span>
+        <h2 class="text-4xl font-bold uppercase tracking-tighter mt-2 font-display">New Arrivals</h2>
+      </div>
+      <a href="#" class="text-sm font-bold uppercase tracking-widest border-b-2 border-primary hover:text-primary transition-colors pb-1">View All Products</a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      @for (product of products(); track product.id) {
+        <div class="product-card group relative">
+          <div class="aspect-[4/5] bg-industrial-gray rounded-lg overflow-hidden relative mb-4">
+            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" [style.background-image]="'url(' + product.image + ')'"></div>
+            <div class="absolute inset-0 bg-black/60 flex flex-col justify-center items-center gap-3 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300">
+              <button class="w-48 py-3 bg-primary text-black font-bold uppercase text-xs tracking-widest rounded hover:bg-white transition-colors">Add to Cart</button>
+              <button class="w-48 py-3 bg-white/10 text-white font-bold uppercase text-xs tracking-widest rounded backdrop-blur-md hover:bg-white/20 transition-colors">Quick View</button>
+            </div>
+          </div>
+          <h3 class="font-bold text-lg uppercase tracking-tight font-display">{{ product.name }}</h3>
+          <div class="flex items-center gap-2 mt-1">
+            <div class="flex text-primary">
+              @for (star of getStars(product.rating); track $index) {
+                <mat-icon class="text-sm">{{ star }}</mat-icon>
+              }
+            </div>
+            <span class="text-xs text-slate-400 font-medium">({{ product.reviews }} reviews)</span>
+          </div>
+          <p class="text-primary font-bold mt-2">{{ product.price | currency }}</p>
+        </div>
+      }
+    </div>
+  </section>
+
+  <!-- Shop the Look Section -->
+  <section #animatedSection class="relative h-[80vh] w-full overflow-hidden section-fade-in">
+    <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuChmUn4nmq9OhGn4qvhNkJD_7AEk_NiV434C1vE1v_rlwyziMSyH0BlyDMG6drLEtZu5FgvBoOlrZs8LHgH7DLt80j6zHBc3LBvN_y9bWVPjkC3JqFNwS0NQ0eWlsv7p-G3eNiYj05yIsaFaoTIYH8fCXLWCKnkT7b2a_F9oiroKSs9iSzqrCsHFMirj7UHlhIP3N-3XxT5ZuaE7OG8jVnzj5lsI4k-QjrhJFoVkCMGjpPFjcJYfRIm3zeVirtJOYb0VxGkzSUnHoG3');"></div>
+    <div class="absolute inset-0 bg-black/20"></div>
+    <div class="absolute inset-0 max-w-7xl mx-auto px-6 flex items-center justify-center">
+      <div class="text-center bg-black/40 backdrop-blur-md p-10 rounded-lg border border-white/10">
+        <span class="text-primary uppercase tracking-[0.5em] text-xs font-bold block mb-4">Visual Catalog</span>
+        <h2 class="text-5xl font-black uppercase tracking-tighter mb-8 font-display">Shop the Look</h2>
+        <p class="text-slate-200 max-w-md mx-auto mb-10 font-light">Bring the raw beauty of industrial design into your home with our curated loft collection.</p>
+      </div>
+    </div>
+
+    <!-- Interactive Hotspots -->
+    @for (hotspot of hotspots(); track hotspot.id) {
+      <div class="absolute group cursor-pointer" [style.top]="hotspot.top" [style.left]="hotspot.left">
+        <div class="w-10 h-10 bg-primary/20 flex items-center justify-center rounded-full hotspot-pulse">
+          <div class="w-5 h-5 bg-primary text-black flex items-center justify-center rounded-full">
+            <mat-icon class="text-sm font-bold">add</mat-icon>
+          </div>
+        </div>
+        <!-- Hotspot Modal -->
+        <div class="absolute bottom-12 left-0 w-64 bg-background-dark/95 border border-primary/30 p-4 rounded-lg shadow-2xl opacity-0 group-hover:opacity-100 transition-all scale-95 group-hover:scale-100 pointer-events-none group-hover:pointer-events-auto z-10">
+          <div class="flex gap-4">
+            <div class="w-16 h-16 bg-cover bg-center rounded" [style.background-image]="'url(' + hotspot.image + ')'"></div>
+            <div>
+              <h4 class="font-bold text-sm uppercase font-display">{{ hotspot.productName }}</h4>
+              <p class="text-primary font-bold text-xs">{{ hotspot.price | currency }}</p>
+              <a href="#" class="text-[10px] text-slate-400 underline mt-1 block">Shop Item</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </section>
+
+  <!-- Newsletter Section -->
+  <section #animatedSection class="bg-industrial-gray py-20 section-fade-in">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold uppercase tracking-tighter mb-4 font-display">Join the Collective</h2>
+      <p class="text-slate-400 mb-8">Get exclusive access to new drops, design stories, and bespoke availability.</p>
+      <form class="flex flex-col sm:flex-row gap-4">
+        <input type="email" placeholder="Your engineering email" class="flex-1 bg-black border-slate-800 focus:border-primary focus:ring-primary rounded py-4 px-6 text-white placeholder:text-slate-600 outline-none transition-all">
+        <button type="submit" class="bg-primary text-black font-black uppercase tracking-widest px-10 py-4 rounded hover:bg-primary/90 transition-all">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- Industrial Footer -->
+<footer class="bg-background-dark pt-20 pb-10 border-t border-primary/10">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+      <div class="col-span-1 md:col-span-1">
+        <a href="#" class="flex items-center gap-2 mb-8">
+          <mat-icon class="text-primary text-3xl">architecture</mat-icon>
+          <span class="text-xl font-bold tracking-tighter uppercase font-display">Industrial<span class="text-primary">Home</span></span>
+        </a>
+        <p class="text-slate-400 text-sm leading-relaxed mb-6">Hand-forged in Brooklyn. We combine heritage manufacturing techniques with modern functional design.</p>
+        <div class="flex gap-4">
+          <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center hover:bg-primary hover:text-black transition-all">
+            <mat-icon class="text-sm">alternate_email</mat-icon>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center hover:bg-primary hover:text-black transition-all">
+            <mat-icon class="text-sm">share</mat-icon>
+          </a>
+          <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center hover:bg-primary hover:text-black transition-all">
+            <mat-icon class="text-sm">hub</mat-icon>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h5 class="text-xs font-black uppercase tracking-[0.3em] text-primary mb-6">Collections</h5>
+        <ul class="space-y-4 text-sm text-slate-400 font-medium">
+          <li><a href="#" class="hover:text-white transition-colors">The Loft Series</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Forged Steel Seating</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Axe-Base Tables</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Minimal Lighting</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-xs font-black uppercase tracking-[0.3em] text-primary mb-6">Company</h5>
+        <ul class="space-y-4 text-sm text-slate-400 font-medium">
+          <li><a href="#" class="hover:text-white transition-colors">Our Story</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Sustainability</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Wholesale</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Bespoke Inquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-xs font-black uppercase tracking-[0.3em] text-primary mb-6">Support</h5>
+        <ul class="space-y-4 text-sm text-slate-400 font-medium">
+          <li><a href="#" class="hover:text-white transition-colors">Shipping Policy</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Returns & Exchanges</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Care Guide</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-10 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6">
+      <p class="text-xs text-slate-600 font-medium uppercase tracking-widest">© 2024 Industrial Home. All Rights Reserved.</p>
+      <div class="flex gap-8 text-[10px] text-slate-600 font-black uppercase tracking-[0.2em]">
+        <a href="#" class="hover:text-primary transition-colors">Privacy Policy</a>
+        <a href="#" class="hover:text-primary transition-colors">Terms of Service</a>
+        <a href="#" class="hover:text-primary transition-colors">Cookie Settings</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<router-outlet />
